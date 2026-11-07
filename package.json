@@ -1,0 +1,25 @@
+{
+  "name": "ibb-web",
+  "version": "1.0.0",
+  "description": "Website company profile dan CRM-lite PT Indo Buana Berkah",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node scripts/test.js",
+    "seed:demo": "node scripts/seed-demo.js",
+    "user:add": "node scripts/user-add.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "express": "^5.3.0",
+    "multer": "^2.5.0",
+    "nodemailer": "^10.3.1"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=22.13"
+  }
+}
