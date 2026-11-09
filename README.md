@@ -3,9 +3,6 @@
 Aplikasi web yang berfungsi penuh: situs company profile, formulir inquiry dengan unggah dokumen,
 cek status tiket, dan CRM-lite internal (login, scoring, SLA, pipeline, aktivitas, pengingat, email, log audit).
 
-- **Backend:** Node.js + Express, basis data SQLite bawaan Node (satu berkas), tanpa layanan eksternal wajib.
-- **Frontend:** `public/index.html` (situs), `public/crm.js` dan `public/crm.css` (CRM).
-
 ## 1. Menjalankan (lokal)
 Butuh **Node.js 22.13 atau lebih baru** (LTS 22 atau 24). SQLite memakai modul bawaan Node, jadi tidak ada yang perlu dikompilasi.
 
