@@ -1,4 +1,4 @@
-/* ===================== CRM profesional (prototipe) ===================== */
+/* ===================== CRM (prototipe) ===================== */
 const ST=['Baru','Dikualifikasi','Konsultasi','Penawaran','Selesai'];
 let CFG={};const HR=36e5,DAY=864e5;
 const esc=x=>String(x==null?'':x).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));

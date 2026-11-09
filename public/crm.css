@@ -1,4 +1,4 @@
-/* ── CRM profesional ── */
+/* ── CRM ── */
 #crm{position:fixed;inset:0;z-index:300;background:#f3f6f4;overflow:auto;display:none;font:400 13.5px/1.5 'Inter',sans-serif;color:#1b2a23;--g:#1a7a4a;--gd:#0e4d2e;--bd:#e1e8e3;--mu:#6a7a72}
 body.crm-open{overflow:hidden}body.crm-open #crm{display:block}#crm *{box-sizing:border-box}
 .k-login{min-height:100%;display:grid;grid-template-columns:1.1fr 1fr}.k-lb{background:linear-gradient(160deg,#0b3d25,#1a7a4a);color:#fff;padding:3.5rem;display:flex;flex-direction:column;justify-content:center;gap:1.2rem}
